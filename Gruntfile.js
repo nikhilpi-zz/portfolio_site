@@ -24,6 +24,18 @@ module.exports = function (grunt) {
         }
       }
     },
+    copy: {
+      main: {
+          files: [{
+              expand: true,
+              dot: true,
+              flatten: true,
+              cwd: '.',
+              src: ['public/components/font-awesome/fonts/*.*'],
+              dest: 'public/fonts'
+          }]
+      }
+    },
     watch: {
       options: {
         nospawn: true,
@@ -85,9 +97,11 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-wiredep');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('default', [
     'less',
+    'copy',
     'develop',
     'watch'
   ]);
