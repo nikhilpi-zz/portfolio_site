@@ -11,12 +11,12 @@ router.get('/', function (req, res, next) {
     res.render('index', {info: Home, proj: Projects});
 });
 
-router.get('/projects', function (req, res, next) {
-    res.render('projects', {
-      projs: Projects,
-      section: 'projects',
-    });
-});
+// router.get('/projects', function (req, res, next) {
+//     res.render('projects', {
+//       projs: Projects,
+//       section: 'projects',
+//     });
+// });
 
 router.get('/projects/:slug', function (req, res, next) {
     var project = Projects[req.params.slug];

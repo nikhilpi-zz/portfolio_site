@@ -91,7 +91,35 @@ var Projects = {
                 img_right: null
             }
         ]
-    }
+    },
+    pulsar: {
+        title: 'Pulsar',
+        start_date: new Date(2015,1,4),
+        end_date: new Date(2015,6,18),
+        role: 'Project Manager',
+        summary: 'The Pulsar is a mobile navigation device that provides 360 degrees of dynamic, haptic feedback by vibrating a wristband at an angle that corresponds to the location of upcoming turns.',
+        skills: ['hardware', 'android', 'arduino', 'haptics'],
+        header_img: '/img/pulsar.png',
+        logo_img: '/img/pulsar.png',
+        links: {
+            github: 'https://github.com/nikhilpi/Bifocal',
+            documentation: ''
+        },
+        steps: [
+            {
+                title: 'Problem',
+                text: "Every smart phone offers GPS navigation, however the current implementations are only convenient when used in cars. Navigation apps use audio or visual cues to guide users, but when walking or biking this system becomes clumsy to use. These systems take the users’ attention away from their surroundings and require active participation from the user.",
+                img_left: null,
+                img_right: null
+            },
+            {
+                title: 'Solution',
+                text: "Traditionally, mobile navigation is done using visual and audio cues, which is inconvenient for users who are walking, biking, or visually or auditorily impaired. We want to remove the barriers imposed by interface, to provide a more intuitive, natural and holistic system to help people get to the important places in life. The Pulsar is a mobile navigation device that provides 360 degrees of dynamic, haptic feedback by vibrating a wristband at an angle that corresponds to the location of upcoming turns.",
+                img_left: null,
+                img_right: null
+            }
+        ]
+    },
 };
 
 module.exports = Projects;
