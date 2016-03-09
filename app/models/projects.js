@@ -94,8 +94,8 @@ var Projects = {
     },
     pulsar: {
         title: 'Pulsar',
-        start_date: new Date(2015,1,4),
-        end_date: new Date(2015,6,18),
+        start_date: new Date(2014,1,4),
+        end_date: new Date(2014,3,18),
         role: 'Project Manager',
         summary: 'The Pulsar is a mobile navigation device that provides 360 degrees of dynamic, haptic feedback by vibrating a wristband at an angle that corresponds to the location of upcoming turns.',
         skills: ['hardware', 'android', 'arduino', 'haptics'],
