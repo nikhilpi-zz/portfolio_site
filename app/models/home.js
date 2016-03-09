@@ -28,7 +28,7 @@ var Home = {
             role: "Student Researcher",
             start_date: new Date(2015,11,21),
             end_date: new Date(2015,11,22),
-            summary: "hink of a time when you could describe something, but just couldn't figure out the name. For example, you could recite the plot of a movie but couldn't come up with the title. Other people are great at answering these kinds of questions, but existing search tools like IMDb aren't so great--you can only search by Title, Actors, etc. We wanted to create an application that could answer these kinds of questions, and provide an intuitive interface: one that a user can interact with as if they were describing the plot to another person."
+            summary: "Our project, referred to as “Action Plans,” is a platform designed to help these beginning programmers (learners) learn to build their own web applications using personalized action plans written by an experienced programmer. Experienced programmers (experts) can quickly compose high-quality action plans for project queries submitted by beginners, which will guide them through both high-level goals and subtasks. "
         },
         {
             name: "Knight Lab",

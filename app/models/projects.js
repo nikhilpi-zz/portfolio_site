@@ -3,7 +3,7 @@
 
 var Projects = {
     qasis: {
-        title: 'Quasis',
+        title: 'Qasis',
         start_date: new Date(2015,11,21),
         end_date: new Date(2015,11,22),
         role: 'Front-end Developer',
