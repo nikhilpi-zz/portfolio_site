@@ -1,0 +1,70 @@
+{{> sidebar}}
+
+<div id="wrapper">
+
+  <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+      <div class="inner">
+        <h1>Hi, I'm Nikhil</h1>
+        <p>A product manager/developer working in the bay area.<br />I also take photos.</p>
+        <ul class="actions">
+          <li><a href="#one" class="button outline scrolly">Learn more</a></li>
+        </ul>
+      </div>
+      <div id="particle-contianer"></div>
+    </section>
+
+  <!-- One -->
+    <section id="one" class="wrapper style2 spotlights">
+      {{#each project}}
+        {{> project_card}}
+      {{/each}}
+    </section>
+
+  <!-- Two -->
+    <section id="two" class="wrapper style3 fade-up">
+      <div class="inner">
+        <h2>What I do</h2>
+        <p>I've always been interested in the intersection of people and code. I spend time thinking about how to use technology to guide people through complex problems.</p>
+        <div class="features">
+          {{#each skills}}
+            {{> skill_card}}
+          {{/each}}
+        </div>
+        <ul class="actions">
+          <li><a href="/Nikhil_Pai_CV.pdf" class="button">Resume</a></li>
+        </ul>
+      </div>
+    </section>
+
+  <!-- Three -->
+    <section id="three" class="wrapper style1 fade-up">
+      <div class="inner">
+        <h2>Get in touch</h2>
+        <p>You can find me wondering around San Francisco, Chicago and occasionally an international airport.</p>
+        <div class="style1">
+          <section>
+            <ul class="contact">
+              <li>
+                <h3>Address</h3>
+                <span>Telegraph Hill, San Francisco</span>
+              </li>
+              <li>
+                <h3>Email</h3>
+                <a href="mailto:nikhil.h.pai@gmail.com">nikhil.h.pai[at]gmail[dot]com</a>
+              </li>
+              <li>
+                <h3>Social</h3>
+                <ul class="icons">
+                  <li><a href="https://github.com/nikhilpi/" class="fa-github"><span class="label">GitHub</span></a></li>
+                  <li><a href="https://www.instagram.com/nikhilpi/" class="fa-instagram"><span class="label">Instagram</span></a></li>
+                  <li><a href="https://www.linkedin.com/in/nikhilpi" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+</div>
