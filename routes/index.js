@@ -1,5 +1,4 @@
 var express = require('express');
-var request = require('request');
 var info = require('./info.js');
 var router = express.Router();
 
